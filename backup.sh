@@ -17,7 +17,7 @@ clear
     
 #Verifica se o arquivo de backup já existe
 
-    if [ -e "$backup_file ]; then
+    if [ -e "$backup_file" ]; then
     
         clear
         echo "Aguarde..."
